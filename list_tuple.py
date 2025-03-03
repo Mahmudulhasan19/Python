@@ -42,10 +42,18 @@ print(movies)
 
 # Practice 2
 tup = ["matin", 1, 4, 5, 7, 4]
-""" tup1 = tup.copy()
-print(tup1)
-tup1.reverse()
-print(tup1) """
+# tup = [1, 3, 1]
+copy_tup = tup.copy()
+copy_tup.reverse()
+if (copy_tup == tup):
+    print("Palindrome")
 
-print(list(reversed(tup)))   # Build in funtion that returns iterator
+else:
+    print("Not Palindrome")
+
+""" print(list(reversed(tup)))   # Build in funtion that returns iterator
 #print(tup1)
+ """
+
+
+"""  Hey there , This is Mahmudul Hasan Matin. """

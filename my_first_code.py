@@ -39,3 +39,5 @@ name = input("Enter Your Name:")
 print(len(name))
 print(name.find("s"))
 print(name.count("h"))
+
+""" Hey there, This is Mahmudul Hasan """

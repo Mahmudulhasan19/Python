@@ -41,7 +41,7 @@ print(movies)
  """
 
 # Practice 2
-tup = ["matin", 1, 4, 5, 7, 4]
+""" tup = ["matin", 1, 4, 5, 7, 4]
 # tup = [1, 3, 1]
 copy_tup = tup.copy()
 copy_tup.reverse()
@@ -49,7 +49,14 @@ if (copy_tup == tup):
     print("Palindrome")
 
 else:
-    print("Not Palindrome")
+    print("Not Palindrome") """
+
+# Practice 3 and 4
+
+grade=["A", "B", "C", "D", "A", "A",]
+"""print(grade.count("A"))"""
+grade.sort()
+print(grade)
 
 """ print(list(reversed(tup)))   # Build in funtion that returns iterator
 #print(tup1)

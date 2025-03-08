@@ -50,3 +50,25 @@ new_dict  ={
 info.update(new_dict)   
 print(info)
  """
+
+#SET And its Methods
+afm = {1,2,4,(1,3,4),"matin",}
+collection = set()                                        # Empty set syntex 
+collection.add(0)
+collection.add(1)
+collection.add(2)
+collection.add(2)                                         # Ignore this element because of duplicate
+collection.add("Hey there, This is Mahmudul Hasan Matin") #String because of immutability
+collection.add((1,2,3))                                   #Tuple because of immutability
+#collection.add([1,2,34])                                  #Error because of List(Unhashable)
+collection.remove(0)
+#collection.clear()
+collection.pop()
+
+
+print("Set 1:",afm)
+print("Set 2:",collection)
+#print(type(collection))
+#print(collection.pop())
+print(afm.union(collection))
+print(afm.intersection(collection))

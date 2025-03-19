@@ -1,3 +1,5 @@
+# WHILE LOOP #WHILE LOOP #WHILE LOOP #WHILE LOOP #WHILE LOOP #WHILE LOOP #WHILE LOOP #WHILE LOOP
+
 """ i = 0
 while i < 5:
     print('Matin')
@@ -54,11 +56,50 @@ while i <= 10:
     if (i == 4):
         break
     i += 1 """
-#CONTINUE
-i=1
+# CONTINUE
+""" i=1
 while i<=10:
-    if(i==5):
+    if(i%2==0):
         i+=1
-        continue
+        continue #Skip
     print(i)
-    i+=1
+    i+=1 """
+
+
+# FOR LOOP #FOR LOOP #FOR LOOP #FOR LOOP #FOR LOOP #FOR LOOP #FOR LOOP #FOR LOOP #FOR LOOP
+
+""" list =[1,3,44,56,43,55,77]    #Also in tuples and string
+for val in list:
+    print(val) """
+
+""" str = "Mahmudul"
+for char in str:
+    if(char=='u'):
+        print("u found")
+        break
+    print(char)
+
+else:                #Break statement a else kaj korbe na...
+    print("End")
+ """
+# Searh a number in a tuple using loop   #Linear search
+""" tup=[1,3,44,55,66,4,3,33,44]
+i=0
+n=int(input("Enter the num which you want to search:"))
+for el in tup:
+    if(n==el):
+        print("Found at index:",i)
+        break              #If we want to stop when appeared first
+    i+=1 """
+
+# range() Function
+""" for el in range(3, 10, 3):  # range(start,stop,step)
+    print(el)
+ """
+""" #Print odd or even using range() function
+for el in range(1,100,2):
+    print(el) """
+#Print a multiplication table of a number
+n=int(input("Enter a Number:"))
+for i in range(1,11):
+    print(n*i)

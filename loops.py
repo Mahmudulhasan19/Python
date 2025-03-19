@@ -44,19 +44,19 @@ while i < len(tuple):
         print("Found at:", i)
 
     else:
-        print("Finding.....") 
-        
+        print("Finding.....")
+
     i += 1
  """
 
-# BREAK
+# BREAK # BREAK
 """ i = 1
 while i <= 10:
     print(i)
     if (i == 4):
         break
     i += 1 """
-# CONTINUE
+# CONTINUE #CONTINUE
 """ i=1
 while i<=10:
     if(i%2==0):
@@ -92,14 +92,50 @@ for el in tup:
         break              #If we want to stop when appeared first
     i+=1 """
 
-# range() Function
+# range() Function #range() Function
 """ for el in range(3, 10, 3):  # range(start,stop,step)
     print(el)
  """
 """ #Print odd or even using range() function
 for el in range(1,100,2):
     print(el) """
-#Print a multiplication table of a number
-n=int(input("Enter a Number:"))
+# Print a multiplication table of a number
+""" n=int(input("Enter a Number:"))
 for i in range(1,11):
     print(n*i)
+ """
+# pass Statement #pass Statement
+""" for el in range(10):
+    #dfbjddf
+
+print("Matin")   #IndentationError """
+
+""" for el in range(10):
+    pass
+if el < 5:
+    pass
+# No error because of pass statement. We can use that loop block whenever need.
+print("Matin") """
+
+# Find sum of first n numbers using while loop
+""" n=3
+sum=0
+i=0
+while i<=n:
+    sum+=i
+    i+=1
+print(sum) """
+# Using for loop
+""" n = int(input("Enter the Number:"))
+sum = 0
+for i in range(1, n+1):
+    sum += i
+print("Total sum of the numbers:", sum) """
+
+# Find factorial of a number
+n = 4
+fact = 1
+for i in range(1, n+1):
+    fact *= i            # 5!= 1*2*3*4*5
+print(fact)
+
